@@ -5,7 +5,7 @@ let resultBox = document.querySelector("#result");
 
 
 searchBtn.addEventListener("click", async () => {
-    let cityName = document.querySelector("#city-name").ariaValueMax.trim();
+    let cityName = document.querySelector("#city-name").value.trim();
 
     if (cityName === "") {
         resultBox.classList.remove("hidden");
